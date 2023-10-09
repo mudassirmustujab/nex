@@ -148,6 +148,11 @@
 
 }
 
+.hWithLine::before{
+    background-color: #E84545;
+    height: 1rem!important;
+    width:  2rem!important;
+}
 .scaleLi {
     transform: scale(1.2);
 }
@@ -401,7 +406,13 @@ p {
 }
 
 .sec13{
-    height: 60vh;
+    height: auto;
+    background-color: #F4F4F4;
+}
+
+.sec13 .carousel,.carousel-inner{
+    height: 20.2rem;
+    width: 40rem;
 }
 /* Media Queries Start Here */
 
@@ -428,6 +439,20 @@ p {
     }
     
     /* Section 6 Ends Here */
+
+    .sec13 img{
+        height: 7rem!important;
+        width:  7rem!important;
+    }
+
+    .sec13 p{
+            font-size: 13px;
+    }
+
+    .sec13 .carousel,.carousel-inner{
+        height: 40.2rem;
+        width: 20rem;
+    }
 }
 
 @media screen and (min-width:566px) and (max-width:992px){
