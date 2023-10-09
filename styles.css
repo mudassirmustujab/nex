@@ -464,6 +464,10 @@ footer{
         height: 40.2rem;
         width: 20rem;
     }
+
+    .bg-transparent2{
+        background-color: #38424600!important;
+    }
 }
 
 @media screen and (min-width:566px) and (max-width:992px){
@@ -490,6 +494,9 @@ footer{
     
     /* Section 6 Ends Here */
 
-
+    .bg-transparent2{
+        background-color: #38424600!important;
+    }
+   
 
 }
