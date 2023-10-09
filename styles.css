@@ -223,6 +223,7 @@ body {
 .sec1 {
     height: 130vh;
     background-image: url("assets/img/hero-bg.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -286,6 +287,7 @@ body {
     background-image: url("assets/img/stats-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-color: gray;
     background-blend-mode: multiply;
 
@@ -403,6 +405,7 @@ p {
     background-size: cover;
     background-color: gray;
     background-blend-mode: multiply;
+    background-attachment: fixed;
 }
 
 .sec13{
