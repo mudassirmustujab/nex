@@ -414,6 +414,17 @@ p {
     height: 20.2rem;
     width: 40rem;
 }
+
+.sec14{
+    background-color: #F4F4F4;
+}
+
+footer{
+    height: 5rem;
+    background-color: #EAEAEA;
+    font-size: 14px;
+    font-weight: lighter;
+}
 /* Media Queries Start Here */
 
 @media screen and (min-width:0px) and (max-width:566px){
